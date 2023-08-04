@@ -4,18 +4,18 @@ import Gallery from '../utils/gallery';
 const Craft = ()=>{
     return(
     <>
-        <div className='pt-80'></div>
+        <div className='lg:pt-80'></div>
         <div className='px-20'>
-        <div className='flex justify-between items-center pb-8'>
-            <div className='text-4xl font-serif py-8'>Camp Crafts</div>
-            <div className='flex'>
-                <div className='uppercase tracking-widest justify-center pr-4'>View All</div>
+        <div className='lg:flex lg:justify-between items-center pb-8'>
+            <div className='text-4xl text-center lg:text-left font-serif pb-6 pt-12 lg:py-8'>Camp Crafts</div>
+            <div className='flex justify-center'>
+                <div className='uppercase tracking-widest justify-center pr-2'>View All</div>
                 <img 
                 src="https://thehousethatlarsbuilt.com/wp-content/themes/MTT_2023/images/squiggle-arrow.svg" alt="" />
             </div>
         </div>
         <div>
-            <div className='grid grid-cols-4 gap-4'>
+            <div className='lg:grid grid-cols-4 gap-4'>
                 <Gallery imgUrl='https://thehousethatlarsbuilt.com/wp-content/uploads/2023/01/IWTO-Room-Makeovers-204-of-232-1.webp' 
                 title='DIY & Crafts' 
                 description='Camp Lars: Summer Activities for Kids'/>

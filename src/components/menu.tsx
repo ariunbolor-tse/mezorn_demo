@@ -6,12 +6,12 @@ import search from '../assets/pictures/search-interface-symbol.png'
 const Menu = ()=>{
     return(
     <>
-        <div className='pt-4 flex justify-between items-center'>
+        <div className='pt-4 lg:flex justify-between items-center hidden lg:visible'>
             <div className='pl-14 flex'>
                 <img  className='h-8 pr-4' src={menu} alt="menu" />
                 <img className='h-10' src={logo} alt="logo" />
             </div>
-            <div className='flex items-center'>
+            <div className='invisible lg:visible flex items-center'>
                 <div className='pr-4 uppercase font-sans font-bold hover:text-red-400'>Holiday</div>
                 <div className='pr-4 uppercase font-sans font-bold hover:text-red-400'>DIY & Crafts</div>
                 <div className='pr-4 uppercase font-sans font-bold hover:text-red-400'>Decor & Interiors</div>

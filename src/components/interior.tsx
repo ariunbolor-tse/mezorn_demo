@@ -3,17 +3,17 @@ import Gallery from "../utils/gallery";
 const Interior = () =>{
     return(
     <>
-        <div className='px-20 py-32'>
-        <div className='flex justify-between items-center pb-8'>
-            <div className='text-4xl font-serif py-8'>Camp Crafts</div>
-            <div className='flex'>
+        <div className='px-20 lg:py-32'>
+        <div className='lg:flex justify-between items-center pb-8'>
+            <div className='text-4xl text-center font-serif py-8'>Home</div>
+            <div className='flex justify-center'>
                 <div className='uppercase tracking-widest justify-center pr-4'>View All</div>
                 <img 
                 src="https://thehousethatlarsbuilt.com/wp-content/themes/MTT_2023/images/squiggle-arrow.svg" alt="" />
             </div>
         </div>
         <div>
-            <div className='grid grid-cols-4 gap-4'>
+            <div className='lg:grid grid-cols-4 gap-4'>
                 <Gallery imgUrl='https://thehousethatlarsbuilt.com/wp-content/uploads/2023/01/IWTO-Room-Makeovers-204-of-232-1.webp' 
                 title='Decor & Interiors' 
                 description='A fridge made to look like a cabinet'/>

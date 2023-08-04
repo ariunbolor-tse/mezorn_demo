@@ -1,8 +1,8 @@
-
+import contact from '../assets/pictures/contact.png'
 const Contact = () =>{
     return(
     <>
-        <div className="h-screen">
+        <div className="h-screen lg:block hidden">
         <div className="mx-24 relative h-3/4">
             <div className="absolute left-0 ">
                 <img 
@@ -29,6 +29,21 @@ const Contact = () =>{
                 </div>
             </div>
         </div>
+        </div>
+
+
+        <div className='lg:hidden flex justify-center'>
+            <div 
+            className='bg-cover bg-center h-96 w-2/3'
+            style={{backgroundImage: `url(${contact})`}}>
+                <div className="pt-8 text-white font-serif text-3xl text-center pb-8">
+                    Let's Keep in Touch</div>
+                <div className="flex flex-col items-center gap-6">
+                    <input className="h-12 bg-transparent border border-white font-serif p-4 w-1/2 text-white" placeholder='First Name' type="text" />
+                    <input className="h-12 bg-transparent border border-white font-serif p-4 w-1/2 text-white" placeholder='Email Address' type="text" />
+                    <button className="h-12 bg-rose-300 tracking-widest hover:bg-rose-400 w-1/2" >SUBMIT</button>
+                </div>
+            </div>
         </div>
     </>
     )

@@ -7,7 +7,7 @@ const Lars = () =>{
             The Best of Lars
             </div>
         <div>
-            <div className='grid grid-cols-4 gap-4'>
+            <div className='lg:grid grid-cols-4 gap-4'>
                 <Gallery imgUrl='https://thehousethatlarsbuilt.com/wp-content/uploads/2017/09/20170907-Bead-Chandelier-5-1-683x1024.jpg'
                 title='Home' 
                 description='DIY Beaded Chandelier'/>
@@ -41,7 +41,7 @@ const Lars = () =>{
                 description='Christmas Bulb Advent Calendar'/>
             </div>
         </div>
-            <button className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-amber-300 mt-14 py-8 px-32 text-font-3xl tracking-widest uppercase">See all</button>
+            <button className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-amber-300 mt-14 lg:py-8 py-4 px-12 lg:px-32 lg:text-font-3xl text-lg tracking-widest uppercase">See all</button>
         </div>
         </>
     )

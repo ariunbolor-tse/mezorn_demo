@@ -16,8 +16,7 @@ import Footer from '../components/footer';
 const LandingPage= () => {
     return(
     <>
-        <div className='bg-orange-100 h-full pb-12'>
-            <Header/>
+        <div className='relative bg-orange-100 h-max w-screen overflow-hidden pb-12'>
             <Menu/>
             <Section1/>
             <Section2/>
@@ -30,6 +29,7 @@ const LandingPage= () => {
             <Lars/>
             <SocialMedia/>
             <Footer/>
+            <Header/>
         </div>
     </>
     )

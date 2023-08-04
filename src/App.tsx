@@ -3,7 +3,7 @@ import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
-    <div >
+    <div className='w-full h-max'>
       <LandingPage/>
     </div>
   );
