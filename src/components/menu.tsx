@@ -6,6 +6,20 @@ import search from '../assets/pictures/search-interface-symbol.png'
 const Menu = ()=>{
     return(
     <>
+        <div className='hidden lg:visible lg:flex w-full bg-blue-100 lg:h-12 lg:justify-between object-center shadow-inner items-center'>
+                <div className='lg:px-4 w-full'>
+                    <h4 className='lg:text-left text-center items-center py-2 text-gray-800 font-serif hover:text-red-400 text-sm lg:text-xl'>Check out our collection with Lime Ricki</h4>
+                </div>
+                <div className='lg:flex items-center justify-between hidden lg:visible'>
+                    <div className='pr-4 uppercase hover:text-red-400'>About</div>
+                    <div className='pr-4 uppercase hover:text-red-400'>Partnership</div>
+                    <div className='pr-4 uppercase hover:text-red-400'>Press</div>
+                    <div className='pr-4 uppercase hover:text-red-400'>Subscribe</div>
+                    <div className='pr-4 uppercase hover:text-red-400'>Books</div>
+                    <div className='pr-4 uppercase hover:text-red-400'>Courses</div>
+                    <div className='pr-14 uppercase hover:text-red-400'>Shop</div>
+                </div>
+        </div>
         <div className='pt-4 lg:flex justify-between items-center hidden lg:visible'>
             <div className='pl-14 flex'>
                 <img  className='h-8 pr-4' src={menu} alt="menu" />
